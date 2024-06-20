@@ -3,6 +3,12 @@ asyncio
 ffmpeg-python
 py-tgcalls
 git+https://github.com/pyrogram/pyrogram@master
+git+https://github.com/AsmSafone/SafoneAPI
+git+https://github.com/yt-dlp/yt-dlp.git
+git+https://github.com/erdewit/nest_asyncio.git
+git+https://github.com/alexmercerind/youtube-search-python
+git+http://bitbucket.org/techtonik/python-wget/
+git+https://github.com/martyzz1/heroku3.py
 youtube-search-python==1.4.9
 youtube-search
 httpx==0.13.3
@@ -13,7 +19,7 @@ aiofiles
 aiohttp
 requests
 heroku3
-motor
+motor==3.4.0
 yt-dlp
 psutil
 future
