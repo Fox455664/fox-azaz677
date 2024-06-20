@@ -35,6 +35,7 @@ def ytsearch(query):
 
 async def ytdl(link):
     proc = await asyncio.create_subprocess_exec(
+        "تشغيل",
         "yt-dlp",
         "-g",
         "-f",
